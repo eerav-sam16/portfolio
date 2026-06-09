@@ -90,8 +90,6 @@ export default function Contact() {
             <a href="mailto:eeravsameer16@gmail.com" className="contact-email-link">
               eeravsameer16@gmail.com
             </a>
-            <span className="info-sep">·</span>
-            <span>+91 70912 04933</span>
           </div>
         </div>
       </div>
