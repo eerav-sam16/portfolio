@@ -1,0 +1,63 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#0a0a18"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="60%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="bottomLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="65%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="90%" cy="70%" r="35%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#glow)"/>
+  <rect width="1584" height="396" fill="url(#glowCyan)"/>
+
+  <!-- Subtle dot grid -->
+  <pattern id="dots" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.025)"/>
+  </pattern>
+  <rect width="1584" height="396" fill="url(#dots)"/>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="390" width="1584" height="4" fill="url(#bottomLine)"/>
+
+  <!-- Left vertical accent bar (safe zone — starts at x=500) -->
+  <rect x="500" y="48" width="4" height="300" fill="url(#barGrad)" rx="2"/>
+
+  <!-- NAME -->
+  <text x="534" y="138" font-family="'Segoe UI','Inter','Helvetica Neue',sans-serif" font-size="72" font-weight="700" fill="url(#nameGrad)" letter-spacing="-2">EERAV SAMEER</text>
+
+  <!-- Role -->
+  <text x="538" y="186" font-family="'Segoe UI','Inter',sans-serif" font-size="26" font-weight="400" fill="#c084fc" letter-spacing="1">Senior Software Engineer  ·  FinTech &amp; Payments  ·  Java &amp; Distributed Systems</text>
+
+  <!-- Divider line under role -->
+  <rect x="538" y="202" width="780" height="1" fill="rgba(192,132,252,0.18)"/>
+
+  <!-- Tagline -->
+  <text x="538" y="258" font-family="'Georgia','Times New Roman',serif" font-size="28" font-weight="400" fill="#e2e8f0" font-style="italic">&#x201C;From architecture sessions to 3am production calls</text>
+  <text x="538" y="300" font-family="'Georgia','Times New Roman',serif" font-size="28" font-weight="400" fill="#e2e8f0" font-style="italic">&#x2014; I own payment systems end to end.&#x201D;</text>
+
+  <!-- Contact row -->
+  <text x="538" y="352" font-family="'Courier New',monospace" font-size="26" fill="#e2e8f0" letter-spacing="0.5">eeravsameer16@gmail.com</text>
+</svg>

@@ -29,7 +29,7 @@ export default function About() {
           <div ref={leftRef} className="reveal">
             <p className="about-text">
               I&apos;m a <span className="text-lilac">Senior Software Engineer</span> specialising
-              in FinTech and Payments — building systems that handle real money at scale. At
+              in FinTech and Payments  building systems that handle real money at scale. At
               Comviva Technologies I own the payment gateway orchestration platform end-to-end:
               HLD, implementation, query optimisation, and production incident response.
             </p>
