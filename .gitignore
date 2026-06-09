@@ -2,3 +2,7 @@ node_modules/
 dist/
 .DS_Store
 *.local
+.claude/
+SESSION_NOTES.md
+next-env.d.ts
+tsconfig.json
